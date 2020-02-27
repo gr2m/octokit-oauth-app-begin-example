@@ -11,6 +11,7 @@ post /api/github/oauth/token
 get /api/github/oauth/token
 patch /api/github/oauth/token
 delete /api/github/oauth/token
+delete /api/github/oauth/grant
 
 @tables
 data
