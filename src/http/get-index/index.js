@@ -18,11 +18,11 @@ let body = `
 
     <h1 class="center-text">
       <!-- ↓ Change "Hello world!" to something else and head on back to Begin! -->
-      Hello world!
+      Hello, friends!
     </h1>
 
     <p class="center-text">
-      Your <a href="https://begin.com" class="link" target="_blank">Begin</a> app is ready to go!
+      I'm <a href="https://twitter.com/gr2m">Gregor</a> and this is my first <a href="https://begin.com" class="link" target="_blank">Begin</a> app!
     </p>
 
   </body>
