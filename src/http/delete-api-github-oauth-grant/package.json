@@ -2,6 +2,7 @@
   "name": "begin-app-delete-api-github-oauth-grant",
   "dependencies": {
     "@architect/functions": "latest",
-    "@begin/data": "latest"
+    "@begin/data": "latest",
+    "@octokit/oauth-app": "^1.0.1"
   }
 }
