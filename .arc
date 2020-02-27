@@ -8,6 +8,7 @@ get /
 get /api/github/oauth/login
 get /api/github/oauth/callback
 post /api/github/oauth/token
+get /api/github/oauth/token
 
 @tables
 data
