@@ -1,12 +1,11 @@
-# Warning: do not edit
-# --------------------
-# This is a generated file and will be overwritten
-
 @app
-begin-app
+air-daq
+
+@static
 
 @http
 get /
+get /api/github/oauth/login
 
 @tables
 data
