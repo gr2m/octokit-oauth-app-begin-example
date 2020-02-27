@@ -1,0 +1,7 @@
+{
+  "name": "begin-app-patch-api-github-oauth-token",
+  "dependencies": {
+    "@architect/functions": "latest",
+    "@begin/data": "latest"
+  }
+}
