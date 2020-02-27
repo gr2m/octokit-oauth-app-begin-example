@@ -1,5 +1,9 @@
+# Warning! Do Not Edit
+# --------------------
+# This is a generated file and will be overwritten
+
 @app
-air-daq
+river-pfe
 
 @static
 
