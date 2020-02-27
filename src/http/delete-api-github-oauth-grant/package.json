@@ -1,0 +1,7 @@
+{
+  "name": "begin-app-delete-api-github-oauth-grant",
+  "dependencies": {
+    "@architect/functions": "latest",
+    "@begin/data": "latest"
+  }
+}
