@@ -3,6 +3,11 @@ const { createToken } = require("@octokit/oauth-app");
 
 exports.handler = async function http(request) {
   const body = arc.http.helpers.bodyParser(request);
+  const headers = {
+    "content-type": "application/json; charset=utf8",
+    "cache-control":
+      "no-cache, no-store, must-revalidate, max-age=0, s-maxage=0"
+  };
 
   try {
     const { token, scopes } = await createToken({
@@ -14,23 +19,26 @@ exports.handler = async function http(request) {
 
     return {
       statusCode: 201,
-      body: { token, scopes }
+      headers,
+      body: JSON.stringify({ token, scopes })
     };
   } catch (error) {
     if (/The code passed is incorrect or expired/i.test(error.message)) {
       return {
         statusCode: 400,
-        body: {
+        headers,
+        body: JSON.stringify({
           error: error.message
-        }
+        })
       };
     }
 
     return {
       statusCode: 500,
-      body: {
+      headers,
+      body: JSON.stringify({
         error: "Server error"
-      }
+      })
     };
   }
 };
