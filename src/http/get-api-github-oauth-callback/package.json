@@ -1,0 +1,7 @@
+{
+  "name": "begin-app-get-api-github-oauth-callback",
+  "dependencies": {
+    "@architect/functions": "latest",
+    "@begin/data": "latest"
+  }
+}
