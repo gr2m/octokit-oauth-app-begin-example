@@ -1,18 +1,21 @@
-<img src="https://static.begin.app/node-hello-world/readme-banner.png" width="813">
+# `@octokit/oauth-app` serverless example using Begin
 
-[![Begin build status](https://buildstatus.begin.app/air-daq/status.svg)](https://begin.com)
+This example showcases how to create an OAuth Client server for GitHub's (OAuth) Apps for a serverless environment using [Begin](https://begin.com)
+
+All the [default routes](https://github.com/octokit/oauth-app.js#middlewares) are implemented using separate files in the [`/src/http/`](src/http/) folder
+
+Learn more about [`@octokit/oauth-app`](https://github.com/octokit/oauth-app.js#readme) or [Begin](https://begin.com).
 
 ## Deploy your own
 
-[![Deploy to Begin](https://static.begin.com/deploy-to-begin.svg)](https://begin.com/apps/create?template=https://github.com/begin-examples/node-hello-world)
+[![Deploy to Begin](https://static.begin.com/deploy-to-begin.svg)](https://begin.com/apps/create?template=https://github.com/gr2m/octokit-oauth-app-begin-example/)
 
 Deploy your own clone of this app to Begin!
 
-## Getting started
+## Local development
 
+- Install dependencies: `npm install`
 - Start the local dev server: `npm start`
-- Lint your code: `npm run lint`
-- Run your tests: `npm t`
 
 ## Reference
 
@@ -21,9 +24,6 @@ Deploy your own clone of this app to Begin!
 
 Head to [docs.begin.com](https://docs.begin.com/) to learn more!
 
+## License
 
-
-
-
-
-
+[ISC](LICENSE)
