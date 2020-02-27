@@ -35,6 +35,8 @@ exports.handler = async function http(request) {
       };
     }
 
+    console.error(error);
+
     return {
       statusCode: 500,
       headers,
