@@ -6,6 +6,7 @@ air-daq
 @http
 get /
 get /api/github/oauth/login
+get /api/github/oauth/callback
 
 @tables
 data
