@@ -9,6 +9,8 @@ exports.handler = async function http(request) {
   };
 
   if (!token) {
+    console.log(request);
+
     return {
       statusCode: 400,
       headers,
