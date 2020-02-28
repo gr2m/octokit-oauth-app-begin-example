@@ -1,6 +1,8 @@
 # `@octokit/oauth-app` serverless example using Begin
 
-This example showcases how to create an OAuth Client server for GitHub's (OAuth) Apps for a serverless environment using [Begin](https://begin.com)
+> This example showcases how to create an OAuth Client server for GitHub's (OAuth) Apps for a serverless environment using [Begin](https://begin.com)
+
+[![Begin build status](https://buildstatus.begin.app/river-pfe/status.svg)](https://begin.com)
 
 All the [default routes](https://github.com/octokit/oauth-app.js#middlewares) are implemented using separate files in the [`/src/http/`](src/http/) folder
 
