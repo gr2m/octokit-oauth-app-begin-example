@@ -1,7 +1,11 @@
 const { deleteAuthorization } = require("@octokit/oauth-app");
 
 exports.handler = async function http(request) {
-  const token = (request.headers.authorization || "").substr("token ".length);
+  const token = (
+    request.headers.authorization ||
+    request.headers.Authorization ||
+    ""
+  ).substr("token ".length);
   const headers = {
     "content-type": "application/json; charset=utf8"
   };
