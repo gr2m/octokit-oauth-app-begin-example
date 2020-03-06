@@ -26,4 +26,4 @@ jobs:
       - run: npm run build --if-present
       - run: npx semantic-release
         env:
-          GITHUB_TOKEN: ${{ secrets.GR2M_PAT_FOR_SEMANTIC_RELEASE }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
