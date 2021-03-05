@@ -10,5 +10,6 @@
     "@architect/sandbox": "latest",
     "cross-env": "^6.0.3"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "repository": "github:gr2m/octokit-oauth-app-begin-example"
 }
