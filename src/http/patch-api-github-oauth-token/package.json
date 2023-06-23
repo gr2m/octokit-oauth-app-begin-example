@@ -3,6 +3,6 @@
   "dependencies": {
     "@architect/functions": "latest",
     "@begin/data": "latest",
-    "@octokit/oauth-app": "^1.0.1"
+    "@octokit/oauth-app": "^1.2.1"
   }
 }
